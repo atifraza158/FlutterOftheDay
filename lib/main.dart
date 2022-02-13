@@ -36,6 +36,10 @@ class _AdaptiveState extends State<Adaptive> {
               onChanged: (bool newValue) {},
               value: true,
             ),
+            Icon(
+              Icons.adaptive.share,
+            ),
+            const CircularProgressIndicator.adaptive(),
           ],
         ),
       ),
